@@ -4,12 +4,12 @@
 }
 
 body {
-      /*background: linear-gradient( to bottom , #e1bf9e, #21355a);*/
-      background-image: url(../img/bg.jpg);
-      background-repeat: no-repeat;
-      background-size: length;
-      min-height: 280px;
-      background-size: cover;
+  /*background: linear-gradient( to bottom , #e1bf9e, #21355a);*/
+  background-image: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: length;
+  min-height: 280px;
+  background-size: cover;
 }
 
 h1 {
@@ -87,6 +87,7 @@ footer {
   display:block;
   margin: 0 auto;
   color: #fff;
+  padding-right: 20px;
 }
 
 .navbar {
