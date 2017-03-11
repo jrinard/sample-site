@@ -9,6 +9,7 @@ body {
   background-size: length;
   min-height: 280px;
   background-size: cover;
+
 }
 
 h1 {
@@ -17,7 +18,7 @@ h1 {
 
 .container {
   padding: 10px;
-
+  box-shadow: 5px 5px 15px #000;
 }
 
 #header {
@@ -29,11 +30,6 @@ h1 {
 
 #slider {
   background-color: #777;
-  /*background-image: url(../img/banner1.png);
-  background-repeat: no-repeat;
-  background-size: length;
-  min-height: 280px;
-  background-size: cover;*/
 }
 
 .banner {
@@ -43,7 +39,6 @@ h1 {
 .slider {
   border: solid thick #000;
 }
-
 
 #content {
   background-color: #d2d2d2;
@@ -55,7 +50,7 @@ h1 {
 footer {
   background-color: #000;
   margin-left: -40px;
-  margin-right: -40px;
+  margin-right: -43px;
   padding-right: 40px;
   padding-left: 40px;
   border: 2px solid #555;
@@ -95,9 +90,9 @@ footer {
   padding-right: 20px;
   padding-left: 20px;
   border: 2px solid #555;
-  /*box-shadow: 1px 5px 5px #222;*/
   background-color: #000;
 }
+
 
 .center {
 width:400px; margin:0 auto;
@@ -150,7 +145,7 @@ a:link {
   text-decoration: none;
 }
 a:hover {
-  color: #000;
+  color: #fff;
   text-decoration: none;
 }
 a:active {
@@ -202,4 +197,49 @@ a:visited {
   margin-top:-500px;
   border-left: 500px solid transparent;
   border-top: 500px solid #000;
+}
+
+
+
+
+/*Nav-right Tri bottom*/
+.triangle-bottom-right {
+  width: 10%;
+  height: 0;
+  padding-top: 2.5%;
+  margin-top: -30px;
+  margin-bottom: 0px;
+  margin-left: -40px;
+  overflow: hidden;
+  width: 25px;
+}
+.triangle-bottom-right:after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  margin-top:-500px;
+  border-top: 500px solid transparent;
+  border-right: 500px solid #000;
+}
+
+
+/*Nav-left Tri bottom*/
+.triangle-bottom-left {
+  width: 10%;
+  height: 0;
+  padding-bottom: 2.5%;
+  overflow: hidden;
+  margin-top: -30px;
+  margin-right: -125px;
+  float:right;
+  width: 110px;
+}
+.triangle-bottom-left:after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-right: 500px solid transparent;
+  border-bottom: 500px solid #000;
 }
