@@ -4,7 +4,6 @@
 }
 
 body {
-  /*background: linear-gradient( to bottom , #e1bf9e, #21355a);*/
   background-image: url(../img/bg.jpg);
   background-repeat: no-repeat;
   background-size: length;
@@ -20,7 +19,6 @@ h1 {
   padding: 10px;
 
 }
-
 
 #header {
   padding: 10px 50px;
@@ -69,7 +67,6 @@ footer {
 
 .sitemap {
   color: #fff;
-
 }
 
 .footer-text{
@@ -148,7 +145,6 @@ li {
   font-size: 1.6em;
 }
 
-
 a:link {
   color: #bda171;
   text-decoration: none;
@@ -168,23 +164,22 @@ a:visited {
 .triangle-top-right {
   margin-bottom: -80px;
   margin-right: -20px;
-    width: 0;
-    height: 0;
-    padding-bottom: 3%;
-    padding-left: 3%;
-    overflow: hidden;
-    float:right;
+  width: 0;
+  height: 0;
+  padding-bottom: 3%;
+  padding-left: 3%;
+  overflow: hidden;
+  float:right;
 }
 .triangle-top-right:after {
-    content: "";
-    display: block;
-    width: 0;
-    height: 0;
-    margin-left: -400px;
-    border-bottom: 400px solid transparent;
-    border-left: 400px solid #000;
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  margin-left: -400px;
+  border-bottom: 400px solid transparent;
+  border-left: 400px solid #000;
 }
-
 
 
 /*Nav-left Tri*/
@@ -192,11 +187,11 @@ a:visited {
   margin-bottom: -30px;
   margin-left: -20px;
   width: 0;
-   height: 0;
-   padding-left:3%;
-   padding-top: 3%;
-   overflow: hidden;
-   float:left;
+  height: 0;
+  padding-left:3%;
+  padding-top: 3%;
+  overflow: hidden;
+  float:left;
 }
 .triangle-top-left:after {
   content: "";
@@ -205,14 +200,6 @@ a:visited {
   height: 0;
   margin-left:-500px;
   margin-top:-500px;
-
   border-left: 500px solid transparent;
   border-top: 500px solid #000;
 }
-/*
-.navbar-brand {
-    width: 100%;
-    left: 0;
-    text-align: center;
-    margin:0 auto;
-}*/
