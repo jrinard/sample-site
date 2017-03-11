@@ -81,6 +81,14 @@ footer {
   -webkit-text-stroke-color: #bda171;
 }
 
+.phone{
+  font-size: 2.5em;
+  text-align: center;
+  display:block;
+  margin: 0 auto;
+  color: #fff;
+}
+
 .navbar {
   margin-bottom: 0px;
   border-radius: 0px;
