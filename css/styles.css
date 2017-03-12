@@ -9,7 +9,6 @@ body {
   background-size: length;
   min-height: 280px;
   background-size: cover;
-
 }
 
 h1 {
@@ -18,7 +17,6 @@ h1 {
 
 .container {
   padding: 10px;
-  box-shadow: 5px 5px 15px #000;
 }
 
 #header {
@@ -128,6 +126,7 @@ width:400px; margin:0 auto;
   border: solid 5px #fff;
   margin: 20px;
   box-shadow: 1px 5px 5px #222;
+  margin-top: 5px;
 }
 
 ul {
@@ -200,8 +199,6 @@ a:visited {
 }
 
 
-
-
 /*Nav-right Tri bottom*/
 .triangle-bottom-right {
   width: 10%;
@@ -222,7 +219,6 @@ a:visited {
   border-top: 500px solid transparent;
   border-right: 500px solid #000;
 }
-
 
 /*Nav-left Tri bottom*/
 .triangle-bottom-left {
