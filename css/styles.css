@@ -15,6 +15,10 @@ h1 {
   font-family: 'Open Sans', sans-serif;
 }
 
+h2 {
+  color: #fff;
+}
+
 .container {
   padding: 10px;
 }
@@ -23,7 +27,7 @@ h1 {
   padding: 10px 50px;
   border-radius: 15px 15px 0px 0px;
   border: solid thin #000;
-  background-color: #fff;
+  background-color: #000;
 }
 
 #slider {
@@ -42,11 +46,11 @@ h1 {
   background-color: #d2d2d2;
   min-height: 450px;
   padding: 10px 20px;
-  background: linear-gradient( to bottom , #e7e7e7, #8d8d8d);
+  background: linear-gradient( to bottom , #000, #444);
 }
 
 footer {
-  background-color: #000;
+  background-color: #fff;
   margin-left: -40px;
   margin-right: -43px;
   padding-right: 40px;
@@ -55,7 +59,7 @@ footer {
   min-height: 150px;
   padding-top: 20px;
   min-height: 180px;
-  border-bottom: 50px solid #222;
+  border-bottom: 50px solid #d2d2d2;
 }
 
 .sitemap {
@@ -67,8 +71,7 @@ footer {
   text-align: center;
   display:block;
   margin: 0 auto;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #bda171;
+  color: #bda171;
 }
 
 .phone{
@@ -76,8 +79,9 @@ footer {
   text-align: center;
   display:block;
   margin: 0 auto;
-  color: #fff;
+  color: #000;
   padding-right: 20px;
+  font-size: bold;
 }
 
 .navbar {
@@ -88,7 +92,8 @@ footer {
   padding-right: 20px;
   padding-left: 20px;
   border: 2px solid #555;
-  background-color: #000;
+  background-color: #d2d2d2;
+
 }
 
 
@@ -140,18 +145,22 @@ li {
 }
 
 a:link {
-  color: #bda171;
+  color: #000;
   text-decoration: none;
+  font-weight: bold;
 }
 a:hover {
-  color: #fff;
+  color: #000;
   text-decoration: none;
+  font-weight: bold;
 }
 a:active {
   color: #000;
+  font-weight: bold;
 }
 a:visited {
-  color: #bda171;
+  color: #000;
+  font-weight: bold
 }
 
 /*Nav-right Tri*/
